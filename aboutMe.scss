@@ -1,0 +1,82 @@
+$myTextColor: rgb(83, 77, 77);
+$myHoverColor: teal;
+$heroTextColor: white;
+$primaryFont: "Indie Flower", Cursive;
+
+body, html {
+    color: $myTextColor;
+    height: 100%;
+}
+
+li {
+}
+
+#myImage {
+    
+    width: 100%;
+}
+
+#aboutMe {
+    text-align: center;
+    color: $myTextColor;
+}
+
+#student:hover::before #continual {
+    content: " Continual ";
+}
+.myHover:hover {
+    color: $myHoverColor;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: $primaryFont;
+    
+}
+
+.color {
+    background-color: rgb(124, 167, 167);
+    border-color: rgb(5, 44, 44);
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/cindy-bw.JPG");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.hero-text {
+    text-align: center;
+    font-family: $primaryFont;
+    font-size: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $heroTextColor;
+     
+        h1 {
+            padding-bottom: 1.3em;
+        }
+        h3 {
+            padding-bottom: 1.05em;
+        }
+
+}
+
+.hero-list {
+    list-style-type: none;
+    
+    li {
+        padding-bottom: 1em;
+        
+    }
+    #contact {
+        padding-top: 3em;
+    }
+
+}

@@ -1,0 +1,72 @@
+body, html {
+  color: #534d4d;
+  height: 100%;
+}
+
+#myImage {
+  width: 100%;
+}
+
+#aboutMe {
+  text-align: center;
+  color: #534d4d;
+}
+
+#student:hover::before #continual {
+  content: " Continual ";
+}
+
+.myHover:hover {
+  color: teal;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "Indie Flower", Cursive;
+}
+
+.color {
+  background-color: #7ca7a7;
+  border-color: #052c2c;
+}
+
+.hero-image {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./images/cindy-bw.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/cindy-bw.JPG");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  font-family: "Indie Flower", Cursive;
+  font-size: 1.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text h1 {
+  padding-bottom: 1.3em;
+}
+
+.hero-text h3 {
+  padding-bottom: 1.05em;
+}
+
+.hero-list {
+  list-style-type: none;
+}
+
+.hero-list li {
+  padding-bottom: 1em;
+}
+
+.hero-list #contact {
+  padding-top: 3em;
+}
+/*# sourceMappingURL=aboutMe.css.map */

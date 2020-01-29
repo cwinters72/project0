@@ -51,11 +51,11 @@ body, html {
 }
 
 .hero-text h1 {
-  padding-bottom: 1.3em;
+  padding-bottom: .5em;
 }
 
 .hero-text h3 {
-  padding-bottom: 1.05em;
+  padding-bottom: 2em;
 }
 
 .hero-list {

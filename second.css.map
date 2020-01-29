@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,IAAI,CAAC;EACD,gBAAgB,EALM,uBAAuB;EAO7C,KAAK,EANI,OAAkB;EAQ3B,WAAW,EAPD,cAAc,EAAE,OAAO;EASjC,UAAU,EAAE,MAAM;CAGrB",
+    "sources": [
+        "second.scss"
+    ],
+    "names": [],
+    "file": "second.css"
+}

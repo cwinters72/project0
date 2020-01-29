@@ -11,6 +11,7 @@ body, html {
 li {
 }
 
+
 #myImage {
     
     width: 100%;
@@ -76,8 +77,14 @@ li {
         padding-bottom: 1em;
         
     }
+
     #contact {
         padding-top: 3em;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
     }
 
 }

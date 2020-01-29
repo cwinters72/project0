@@ -70,4 +70,9 @@ body, html {
 .hero-list #contact {
   padding-top: 3em;
 }
+
+.hero-list a {
+  text-decoration: none;
+  color: inherit;
+}
 /*# sourceMappingURL=aboutMe.css.map */

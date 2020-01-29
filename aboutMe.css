@@ -60,6 +60,7 @@ body, html {
 
 .hero-list {
   list-style-type: none;
+  padding: 0;
 }
 
 .hero-list li {
